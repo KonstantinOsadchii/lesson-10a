@@ -1,6 +1,6 @@
 import tkinter as tk
 def change_text_label():
-    global a
+    global agit
     a += 1
     label['text'] = chr(a)
 def get_text (entry_name):
